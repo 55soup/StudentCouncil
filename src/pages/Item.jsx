@@ -43,6 +43,7 @@ const Image = styled.img`
   height: 100%;
   filter: brightness(50%);
   z-index: 1;
+  object-fit: cover;
 `;
 
 const Text = styled.div`

@@ -84,6 +84,10 @@ const Content = styled.p`
   white-space: pre-wrap; //\n 줄바꿈 개행이 먹도록 추가함.
   text-overflow: ellipsis;
   word-break: break-all;
+  @media (max-width: 1200px) {
+    width: 60vw;
+    font-size: 3vw;
+  }
 `;
 const Img = styled.img`
   width: 15px;
